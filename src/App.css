@@ -1,0 +1,10 @@
+.column {
+    float: left;
+    width: 50%;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
